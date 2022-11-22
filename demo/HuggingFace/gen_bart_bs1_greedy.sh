@@ -1,0 +1,1 @@
+python3 build_bart_trt.py --fp16 --trt-model-path ../../triton_model_repository/trt_bart_bs1_greedy/1/models/

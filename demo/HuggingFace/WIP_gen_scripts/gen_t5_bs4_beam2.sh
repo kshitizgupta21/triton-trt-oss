@@ -1,0 +1,1 @@
+python3 build_t5_trt.py --min-batch-size 1 --opt-batch-size 2 --max-batch-size 4 --num-beams 2 --trt-model-path ./models/

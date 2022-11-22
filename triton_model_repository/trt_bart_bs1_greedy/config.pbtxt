@@ -1,0 +1,23 @@
+name: "trt_bart_bs1_greedy"
+backend: "python"
+max_batch_size: 1
+input: [
+    {
+        name: "input_ids"
+        data_type: TYPE_INT32
+        dims: [ -1 ]
+    }
+]
+output [
+  {
+    name: "output_ids"
+    data_type: TYPE_INT64
+    dims: [ -1 ]
+  }
+]
+instance_group {
+  count: 1
+  kind: KIND_GPU
+}
+
+

@@ -1,0 +1,1 @@
+python3 build_bart_trt.py --num-beams 2 --trt-model-path ./models
